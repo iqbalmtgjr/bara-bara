@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>New Age - Start Bootstrap Theme</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="<?= base_url('assets/assets/favicon.ico') ?>" />
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Google fonts-->
@@ -52,8 +52,8 @@
                         <h1 class="display-1 lh-1 mb-3">Showcase your app beautifully.</h1>
                         <p class="lead fw-normal text-muted mb-5">Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
                         <div class="d-flex flex-column flex-lg-row align-items-center">
-                            <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a>
-                            <a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
+                            <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="<?= base_url() ?>assets/assets/img/google-play-badge.svg" alt="..." /></a>
+                            <a href="#!"><img class="app-badge" src="<?= base_url() ?>assets/assets/img/app-store-badge.svg" alt="..." /></a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                                     <!-- * * Set the max width of your media to 100% and the height to-->
                                     <!-- * * 100% like the demo example below.-->
                                     <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%">
-                                        <source src="assets/img/demo-screen.mp4" type="video/mp4" />
+                                        <source src="<?= base_url() ?>assets/assets/img/demo-screen.mp4" type="video/mp4" />
                                     </video>
                                 </div>
                             </div>
@@ -176,7 +176,7 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script src="<?= base_url() ?>assets/js/scripts.js"></script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
