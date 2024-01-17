@@ -30,13 +30,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Features</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Download</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="<?= base_url() ?>">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#">Tambah Polling</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#">Hubungi Kami</a></li>
                 </ul>
                 <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                     <span class="d-flex align-items-center">
-                        <i class="bi-chat-text-fill me-2"></i>
-                        <span class="small">Send Feedback</span>
+                        <!-- <i class="bi-chat-text-fill me-2"></i> -->
+                        <span class="small">Login</span>
                     </span>
                 </button>
             </div>
@@ -46,18 +49,19 @@
     <header class="masthead">
         <div class="container px-5">
             <div class="row gx-5 align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <!-- Mashead text and app badges-->
                     <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                        <h1 class="display-1 lh-1 mb-3">Showcase your app beautifully.</h1>
-                        <p class="lead fw-normal text-muted mb-5">Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
+                        <h1 class="display-1 lh-1 mb-3">Selamat Datang di IndoPolling.id</h1>
+                        <p class="lead fw-normal text-muted mb-5">ayo buat polling kita sendiri di Indopoling! Dengan Indopoling, kita dapat memilih sesuatu berdasarkan permintaan kita sendiri.</p>
                         <div class="d-flex flex-column flex-lg-row align-items-center">
-                            <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="<?= base_url() ?>assets/assets/img/google-play-badge.svg" alt="..." /></a>
-                            <a href="#!"><img class="app-badge" src="<?= base_url() ?>assets/assets/img/app-store-badge.svg" alt="..." /></a>
+                            <a class="btn btn-primary btn-lg" href="#!">Buat Polling Sekarang</a>
+                            <!-- <a href="#!"><img class="app-badge" src="<?php //base_url() 
+                                                                            ?>assets/assets/img/app-store-badge.svg" alt="..." /></a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <!-- Masthead device mockup feature-->
                     <div class="masthead-device-mockup">
                         <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
