@@ -10,12 +10,12 @@
 
                 <div class="form-outline mb-4">
                     <label class="form-label" for="typeEmailX-2">Email</label>
-                    <input type="email" id="typeEmailX-2" class="form-control form-control-lg" />
+                    <input type="email" id="typeEmailX-2" class="form-control form-control" />
                 </div>
 
                 <div class="form-outline mb-4">
                     <label class="form-label" for="typePasswordX-2">Password</label>
-                    <input type="password" id="typePasswordX-2" class="form-control form-control-lg" />
+                    <input type="password" id="typePasswordX-2" class="form-control form-control" />
                 </div>
 
                 <!-- Checkbox -->
@@ -24,7 +24,7 @@
                     <label class="form-check-label" for="form1Example3"> Remember password </label>
                 </div> -->
 
-                <button class="btn btn-primary btn-lg btn-block col-md-12" type="submit">Login</button>
+                <button class="btn btn-primary btn-md btn-block col-md-12" type="submit">Login</button>
                 <div class="mt-3">
                     <p class="mb-0">Belum punya akun? <a href="<?= base_url('/daftar') ?>" class="fw-bold">Daftar</a>
                     </p>
@@ -32,7 +32,7 @@
 
                 <hr class="my-4">
 
-                <button class="btn btn-lg btn-block btn-primary col-md-12" style="background-color: #dd4b39;" type="submit"><i class="bi bi-google"></i> Masuk dengan google</button>
+                <button class="btn btn-md btn-block btn-primary col-md-12" style="background-color: #dd4b39;" type="submit"><i class="bi bi-google"></i> Masuk dengan google</button>
             </div>
         </div>
     </div>

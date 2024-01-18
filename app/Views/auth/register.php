@@ -10,15 +10,15 @@
 
                 <div class="form-outline mb-4">
                     <label class="form-label">Nama</label>
-                    <input type="text" class="form-control form-control-lg" placeholder="Nama" />
+                    <input type="text" class="form-control form-control-md" placeholder="Nama" />
                 </div>
                 <div class="form-outline mb-4">
                     <label class="form-label">Email</label>
-                    <input type="email" class="form-control form-control-lg" placeholder="email@example.com" />
+                    <input type="email" class="form-control form-control-md" placeholder="email@example.com" />
                 </div>
                 <div class="form-outline mb-4">
                     <label class="form-label">Jenis Kelamin</label>
-                    <select class="form-control form-control-lg" name="" id="">
+                    <select class="form-control form-control-md" name="" id="">
                         <option value="">--Pilih Jenis Kelamin--</option>
                         <option value="laki-laki">Laki-laki</option>
                         <option value="perempuan">Perempuan</option>
@@ -26,9 +26,9 @@
                 </div>
                 <div class="form-outline mb-4">
                     <label class="form-label" for="typePasswordX-2">Password</label>
-                    <input type="password" id="typePasswordX-2" class="form-control form-control-lg" placeholder="Password" />
+                    <input type="password" id="typePasswordX-2" class="form-control form-control-md" placeholder="Password" />
                 </div>
-                <button class="btn btn-primary btn-lg btn-block col-md-12" type="submit">Daftar</button>
+                <button class="btn btn-primary btn-md btn-block col-md-12" type="submit">Daftar</button>
                 <div class="mt-3">
                     <p class="mb-0">Sudah punya akun? <a href="<?= base_url('/login') ?>" class="fw-bold">Login</a>
                     </p>
