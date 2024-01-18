@@ -6,11 +6,21 @@ class Poling extends BaseController
 {
     public function index(): string
     {
-        return view('poling/index');
+        return view('pages/poling');
     }
 
     public function about(): string
     {
-        return view('about/index');
+        return view('pages/about');
+    }
+
+    public function contact(): string
+    {
+        return view('pages/contact');
+    }
+
+    public function faq(): string
+    {
+        return view('pages/faq');
     }
 }

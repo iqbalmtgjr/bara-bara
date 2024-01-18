@@ -12,15 +12,15 @@
                     <li class="nav-item"><a class="nav-link me-lg-3" href="<?= base_url() ?>">Beranda</a></li>
                     <li class="nav-item"><a class="nav-link me-lg-3" href="<?= base_url('/tentang-kami') ?>">Tentang Kami</a></li>
                     <li class="nav-item"><a class="nav-link me-lg-3" href="<?= base_url('/poling') ?>">Tambah Polling</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#">FAQ</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#">Hubungi Kami</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="<?= base_url('/faq') ?>">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="<?= base_url('/hubungi-kami') ?>">Hubungi Kami</a></li>
                 </ul>
-                <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                <a href="<?= base_url('/login') ?>" class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0">
                     <span class="d-flex align-items-center">
                         <!-- <i class="bi-chat-text-fill me-2"></i> -->
                         <span class="small">Login</span>
                     </span>
-                </button>
+                </a>
             </div>
         </div>
     </nav>
