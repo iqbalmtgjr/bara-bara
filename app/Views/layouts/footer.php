@@ -3,11 +3,11 @@
     <div class="container px-5">
         <div class="text-white-50 small">
             <div class="mb-2">&copy; IndoPoling.id 2024. All Rights Reserved.</div>
-            <a href="#!">Privacy</a>
+            <a href="<?= base_url('/tentang-kami') ?>">Tentang Kami</a>
             <span class="mx-1">&middot;</span>
-            <a href="#!">Terms</a>
+            <a href="<?= base_url('/hubungi-kami') ?>">Hubungi Kami</a>
             <span class="mx-1">&middot;</span>
-            <a href="#!">FAQ</a>
+            <a href="<?= base_url('/faq') ?>">FAQ</a>
         </div>
     </div>
 </footer>
