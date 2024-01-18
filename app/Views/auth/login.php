@@ -6,7 +6,7 @@
         <div class="card shadow-2-strong" style="border-radius: 1rem;">
             <div class="card-body p-5">
 
-                <h3 class="mb-5 text-center">Login</h3>
+                <h3 class="mb-3 text-center">Login</h3>
 
                 <div class="form-outline mb-4">
                     <label class="form-label" for="typeEmailX-2">Email</label>
@@ -25,11 +25,14 @@
                 </div> -->
 
                 <button class="btn btn-primary btn-lg btn-block col-md-12" type="submit">Login</button>
+                <div class="mt-3">
+                    <p class="mb-0">Belum punya akun? <a href="<?= base_url('/daftar') ?>" class="fw-bold">Daftar</a>
+                    </p>
+                </div>
 
                 <hr class="my-4">
 
                 <button class="btn btn-lg btn-block btn-primary col-md-12" style="background-color: #dd4b39;" type="submit"><i class="bi bi-google"></i> Masuk dengan google</button>
-
             </div>
         </div>
     </div>

@@ -10,6 +10,7 @@ $routes->get('/index', 'Home::index');
 
 // auth
 $routes->get('/login', 'Auth::index');
+$routes->get('/daftar', 'Auth::register');
 
 // halaman di navbar
 $routes->get('/poling', 'Poling::index');
