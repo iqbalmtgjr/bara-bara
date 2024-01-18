@@ -7,3 +7,6 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/index', 'Home::index');
+
+$routes->get('/poling', 'Poling::index');
+$routes->get('/tentang-kami', 'Poling::about');
